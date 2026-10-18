@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>County eCitizen | Public Service Requests</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Layout shell. All screens (auth, citizen, admin) are rendered into #app by script.js -->
+<header><div class="w bar">
+ <div class="logo"><div class="crest">🏛️</div><div><b>County eCitizen Portal</b><small>Public Service Request System</small></div></div>
+ <div class="row" style="flex:none"><span id="who" class="mu" style="color:#cbd5e1;min-width:0"></span><button id="out" class="gh hide" onclick="logout()">Sign out</button></div>
+</div></header>
+<main><div id="app"></div></main>
+<footer>© 2026 County Public Service Board · Demo build: data is stored only in this browser</footer>
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
